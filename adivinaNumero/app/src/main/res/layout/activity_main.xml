@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:text="ADIVINA EL NUMERO QUE ESTOY PENSANDO"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/campoNumero"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/buttonAdivina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivinar"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/textIntento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 intentos"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="363dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
